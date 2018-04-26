@@ -1,2 +1,3 @@
 # comment-app
-my first comment-app coded by react.js
+#react.js
+my first comment-app 
