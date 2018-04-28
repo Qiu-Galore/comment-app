@@ -65,9 +65,11 @@ body{
 
 /*comment*/
 .commit{
+  position:relative;
   padding:10px 0;
   height: 50px;
   border-bottom: 1px solid #eee;
+  font-size: 12px;
 }
 .commit-user{
   display: inline-block;
@@ -77,4 +79,21 @@ body{
   padding-left: 10px ;
   display: inline;
   word-wrap:break-word;
+}
+.comment-createdtime{
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  float: right;
+  display: block;
+}
+
+.comment-delete{
+  float: right;
+  color:#48a1ca;
+  visibility: hidden;
+  cursor: pointer;
+}
+.commit:hover .comment-delete{
+  visibility: visible;
 }
